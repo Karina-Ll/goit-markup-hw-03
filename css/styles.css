@@ -11,10 +11,7 @@ body {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-
-    margin-left: 0;
-    margin-right: 0;
-} 
+}
 
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -22,11 +19,11 @@ body {
 
 .header-navigation {
     display: flex;
-    align-items: center;
 }
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 .logo {
