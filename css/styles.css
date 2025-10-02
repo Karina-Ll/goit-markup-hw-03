@@ -18,7 +18,7 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-navigation {
+.header-nav {
     display: flex;
     margin: 0 auto;
 }
@@ -37,6 +37,8 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-right-part {
@@ -47,6 +49,10 @@ body {
     display: flex;
     gap: 40px;
     margin-right: 40px;
+}
+
+.nav-list-item {
+    padding: 24px 0;
 }
 
 .nav-list:last-child {
@@ -113,6 +119,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     color: inherit;
+    max-width: 264px;
 }
 
 a {
@@ -173,6 +180,7 @@ ul {
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
+    padding: 100px 0;
 }
 
 .logo-right-part-footer {
