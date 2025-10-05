@@ -95,6 +95,9 @@ body {
 
 .benefits-list .list-item-second-section {
     width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .first-header {
@@ -187,9 +190,9 @@ img {
 }
 
 .list-item-third-section {
-    background-color: #FFFFFF;
-    flex-basis: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+    background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
 }
 
 .name-and-position-div {
@@ -208,7 +211,7 @@ img {
     row-gap: 48px;
 }
 
-.our-portfolio-list li:first-child {
+.list-item-fourth-section {
     width: calc((100% - 48px) / 3);
 }
 
