@@ -94,6 +94,7 @@ body {
 
 .benefits-list .list-item-second-section {
     width: calc((100% - 72px) / 4);
+    overflow: hidden;
 }
 
 .first-header {
@@ -193,6 +194,7 @@ img {
     width: calc((100% - 72px) / 4);
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
+    overflow: hidden;
 }
 
 .our-portfolio {
@@ -209,6 +211,7 @@ img {
 
 .list-item-fourth-section {
     width: calc((100% - 48px) / 3);
+    overflow: hidden;
 }
 
 .name-and-app-div {
