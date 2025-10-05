@@ -66,6 +66,7 @@ body {
 .nav-text {
     font-weight: 500;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .nav-text:hover,.nav-text:focus {
@@ -95,7 +96,7 @@ body {
 }
 
 .list-item-second-section {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .first-header {
@@ -188,7 +189,7 @@ img {
 }
 
 .list-item-third-section {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -247,11 +248,11 @@ ul {
 
 .logo-footer {
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-right-part-footer {
     color: #F4F4FD;
-    display: inline-block;
 }
 
 .list-item-third-section {
