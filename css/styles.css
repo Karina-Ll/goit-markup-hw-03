@@ -241,7 +241,7 @@ ul {
     gap: 24px;
 }
 
-.benefits-list .list-item-second-section {
+.benefits-list li:first-child {
     width: calc((100% - 72px) / 4);
 }
 
@@ -266,6 +266,6 @@ ul {
     row-gap: 48px;
 }
 
-.our-portfolio-list .list-item-fourth-section {
+.our-portfolio-list li:first-child {
     width: calc((100% - 48px) / 3);
 }
