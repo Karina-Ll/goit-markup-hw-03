@@ -146,13 +146,9 @@ img {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
-    border: none;
-    cursor: pointer;
-    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
-    background-color: #4D5AE5;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -241,7 +237,7 @@ ul {
     gap: 24px;
 }
 
-.benefits-list li:first-child {
+.benefits-list .list-item-second-section {
     width: calc((100% - 72px) / 4);
 }
 
@@ -266,6 +262,6 @@ ul {
     row-gap: 48px;
 }
 
-.our-portfolio-list li:first-child {
+.list-item-fourth-section {
     width: calc((100% - 48px) / 3);
 }
