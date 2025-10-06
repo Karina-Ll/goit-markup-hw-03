@@ -10,6 +10,7 @@ body {
 .container {
     max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header {
@@ -239,7 +240,7 @@ ul {
 }
 
 .benefits-list .list-item-second-section {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 /* 3 section */
@@ -249,7 +250,7 @@ ul {
 }
 
 .our-team-list .list-item-third-section {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
     overflow: hidden;
