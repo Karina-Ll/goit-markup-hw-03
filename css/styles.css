@@ -179,13 +179,6 @@ img {
     padding: 32px 0;
 }
 
-.list-item-third-section {
-    width: calc((100% - 3 * 24px) / 4);
-    background-color: #ffffff;
-    border-radius: 0 0 4px 4px;
-    overflow: hidden;
-}
-
 .our-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -258,6 +251,13 @@ ul {
     gap: 24px;
 }
 
+.our-team-list .list-item-third-section {
+    width: calc((100% - 72px) / 4);
+    background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+}
+
 /* 4 section */
 .our-portfolio-list {
     display: flex;
@@ -266,6 +266,6 @@ ul {
     row-gap: 48px;
 }
 
-.list-item-fourth-section {
+.our-portfolio-list .list-item-fourth-section {
     width: calc((100% - 48px) / 3);
 }
