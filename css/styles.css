@@ -238,7 +238,7 @@ ul {
     gap: 24px;
 }
 
-.benefits-list .list-item-second-section {
+.list-item-second-section {
     flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -248,7 +248,7 @@ ul {
     gap: 24px;
 }
 
-.our-team-list .list-item-third-section {
+.list-item-third-section {
     width: calc((100% - 3 * 24px) / 4);
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
